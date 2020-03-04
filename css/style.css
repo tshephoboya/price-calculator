@@ -1,0 +1,96 @@
+body {
+	overflow-x: hidden;
+}
+
+#screen {
+	height: 50vh;
+	position: absolute;
+	font-size: 12px;
+	width: 100vw;
+	left: 0;
+	top: 0;
+	right: 0;
+	background: rgb(235, 235, 235);
+	font-family: malgun gothic;
+	overflow-x: hidden;
+
+}
+
+.calcBtn {
+	border: solid thin #000;
+	text-align: center;
+	font-size: 9px;
+	content-align: center;
+	height: 100%;
+	border-radius: 0;
+	background-color: rgb(77, 77, 77, 0.5);
+	color: #fff;
+	font-family: malgun gothic;
+}
+
+.calcBtn > p {
+	height:  40px;
+	position: relative;
+	width: 100%;
+	top: 50%;
+	margin-top: -5px;
+	font-weight: bold;
+}
+
+#calcname {
+	height: 30px;
+	border: solid thin #333;
+	color: #fff;background: #333;
+	font-size:15px;
+	width: 100vw;
+	position: relative;
+	top: 0;
+	left: 0;
+	
+	font-family: malgun gothic;
+	padding: 35px 0 0 20px;
+}
+
+#keyboard {
+	height: 50vh;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap:3%;
+	grid-auto-rows: 15%;
+	position: absolute;
+	top: 50vh;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #000;
+	width: 100vw;
+	padding: 0;
+}
+
+#icon {
+	z-index: 100;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+}	
+
+#icon > img {
+	margin-top: 5px;
+	height: 30px;
+	float: right;
+	margin-right: 10px;
+	border-radius: 50%;
+	background: #fff;
+	padding: 2px;
+}
+
+#icon > article {
+	margin-top: 19px;
+	float: left;
+	margin-left: 10px;
+	color: #fff;
+	font-size: 13px;
+	font-family: candara;
+}
